@@ -47,7 +47,7 @@ FROM (
         4,
         5
     ) AS a
-    group by action_delayed
+    GROUP BY action_delayed
   ) AS b
   OFFSET 1
 ) AS c
