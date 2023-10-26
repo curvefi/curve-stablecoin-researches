@@ -236,6 +236,6 @@ Errors are around $0.0001$ and $0.0002$ for current gas prices.
 To conclude, the difference is small enough to omit.
 
 
-# Ways to look to
+# Where to look further
 - Statistics of prices when the peg happens
 - Can debt limits affect stablecoin rate?
