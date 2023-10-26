@@ -18,8 +18,8 @@ like ratio of excessive debt to TVL (e.g. 100k vs 1B) or MM behaviour.
 4. 
 - LLAMMA soft-liquidates current tick
 - Higher rate, loans are returned, TVL shrinks
-6. crvUSD price reaches USDT
-7. Going below USDT makes USDTPegKeeper to return debt and become safu,
+5. crvUSD price reaches USDT
+6. Going below USDT makes USDTPegKeeper to return debt and become safu,
 BUT! those selling below will "buy out" USDT to save crvUSD
 
 Main assumptions:
