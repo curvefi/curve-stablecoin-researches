@@ -130,7 +130,7 @@ Properties of $max\\_ratio(debt_0, debt_1, ..., debt_n)$:
 situation when 1 peg keeper has debt $x$ is worse in terms of $max\\_ratio$ than 4 peg keepers with debts $\frac{x}{4}$
 3) Definable corner cases gaps like all are zero or for the whole amount.
 
-I came up with an equation $\sqrt{max\\_ratio} = a + b \cdot \sum_{i} \sqrt{r_i}$.
+I came up with an equation $\sqrt{max ratio} = a + b \cdot \sum_{i} \sqrt{r_i}$.
 We can solve it for basic values:
 1) One PegKeeper can use up to $r = \frac{1}{4}$
 2) Three PegKeepers can use in limit whole $r = 1$
