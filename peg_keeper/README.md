@@ -64,14 +64,14 @@ to increase "usually"-ness greater powers of deviation might be used.
 deviation \ge \sigma(|\Delta price|)
 ```
 
-Standard deviations of [coin](std_dev.sql) and [deltas](std_diff_dev.sql) for last 6 months according to dune analytics:
+Standard deviations of [coin](std_dev.sql) and [deltas](std_diff.sql) for last 6 months according to dune analytics:
 
-| coin | std dev | std diff dev |
-|------|:-------:|:------------:|
-| USDT | 0.0007  |    0.0003    |       
-| USDC | 0.0005  |    0.0003    |
-| USDP | 0.0007  |    0.0005    |
-| TUSD | 0.0013  |    0.0004    |
+| coin | std dev | std diff |
+|------|:-------:|:--------:|
+| USDT | 0.0007  |  0.0004  |       
+| USDC | 0.0005  |  0.0003  |
+| USDP | 0.0007  |  0.0006  |
+| TUSD | 0.0013  |  0.0005  |
 
 Taking all together:
 ```math

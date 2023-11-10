@@ -1,8 +1,8 @@
-SELECT 
-  STDDEV_SAMP(usdt_diff) AS usdt_sd,
-  STDDEV_SAMP(usdc_diff) AS usdc_sd,
-  STDDEV_SAMP(usdp_diff) AS usdp_sd,
-  STDDEV_SAMP(tusd_diff) AS tusd_sd
+SELECT
+  SQRT(AVG( POWER(usdt_diff, 2) )) AS usdt_ed,
+  SQRT(AVG( POWER(usdc_diff, 2) )) AS usdc_ed,
+  SQRT(AVG( POWER(usdp_diff, 2) )) AS usdp_ed,
+  SQRT(AVG( POWER(tusd_diff, 2) )) AS tusd_ed
 FROM (
   SELECT
     ABS(usdt - LAG(usdt, 1, 0) OVER (ORDER BY action_delayed)) AS usdt_diff,
