@@ -88,6 +88,8 @@ __Note.__
 Using standard deviation of pegs it makes sense for the corner case being $0.0005 = 0.0007 - 0.0002$,
 taking $max\\_deviation$ not from a thin air.
 
+![deviation_historical](deviation_historical.png)
+
 
 # Depeg
 ## Problem
@@ -114,6 +116,8 @@ I used oracle price for ranging because:
 1) it is considered to be too hard to manipulate and rearrange,
 though will take some time to follow depeg that should finely correspond with PegKeeper's `ACTION_DELAY` = 15 min
 2) cheaper in gas
+
+![posterior_historical](price_gap_historical.png)
 
 ### Anterior
 Pegging should work more or less similar for different coins,
@@ -237,5 +241,4 @@ To conclude, the difference is small enough to omit.
 
 
 # Where to look further
-- Statistics of prices when the peg happens
 - Can debt limits affect stablecoin rate?
